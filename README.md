@@ -1,5 +1,5 @@
-exchange-api-python
-===================
+exchange-api-python: V2
+=======================
 
 Sample code written for Python language running on version 2.7
 
