@@ -6,13 +6,6 @@ class Settings():
 	UserId     = "59"
 	ContentType= "application/json"
         UserSecret = "ASECRETCODETOBEUPDATEDFROMUSERSETTIMGSPAGE=="
-	Headers = {
-   		"user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko/20100101 Firefox/32.0",
-		"X-Quoine-Device": DeviceName,
-   		"X-Quoine-User-Id":UserId,
-   		"X-Quoine-User-Token": UserToken
-  	}
-
 	# Base URL for API calls
 	BaseURL = "https://api.quoine.com"
 
