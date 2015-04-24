@@ -80,7 +80,7 @@ def GetAPIKey():
 	gbl = Global()
 	# get api secret key
 	headers = {'User-Agent' : gbl.UserAgent, 'Content-Type': gbl.ContentType }
-	data = '{"email": "tinwald@gmail.com","password": "Password88"}'
+	data = '{"email": "sample@anymail.com","password": "Password24888"}'
 
 	url = gbl.BaseTestingURL + gbl.GetApiKeyURI
 	req = urllib2.Request(url, data, headers)
